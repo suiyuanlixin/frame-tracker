@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <div id="app">
+        <div class="container">
+            <div class="status-bar"></div>
+            <div class="header">
+                <div class="title">
+                    <span class="title-txt">
+                        About
+                    </span>
+                </div>
+                <div class="header-icon-list">
+                    <a href="../index.html" class="header-icon-link">
+                        <div class="header-icon">
+                            <svg t="1763974367454" class="icon" viewBox="0 0 1024 1024" version="1.1"
+                                xmlns="http://www.w3.org/2000/svg" p-id="2944" width="24" height="24">
+                                <path
+                                    d="M662.645636 47.07909c8.791318 0 17.582636 3.353697 24.289577 10.060638 13.414334 13.414334 13.414334 35.163917 0 48.578251l-387.909843 387.910294 388.66123 388.661229c13.414334 13.414334 13.414334 35.163465 0 48.5778-13.414786 13.414334-35.163917 13.414334-48.578251 0l-412.950355-412.950355c-13.414786-13.414334-13.414786-35.163917 0-48.578251l412.198968-412.198968c6.706941-6.706941 15.498259-10.060638 24.288674-10.060638z"
+                                    p-id="2945" fill="#000000bb"></path>
+                            </svg>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="text-card-list">
+                <div class="text-card" id="developer-card">
+                    <div class="card-title-container">
+                        Developer
+                    </div>
+                    <div class="card-text-container">
+                        <a href="https://github.com/suiyuanlixin" class="head-link">
+                            <img src="../img/Skyi_Lici.jpg" alt="">
+                        </a>
+                        <div class="author-text">
+                            <div class="author-name">
+                                <span class="name-code">Name: </span>
+                                <span>Skyi Lici</span>
+                            </div>
+                            <div class="link-list">
+                                <a href="https://www.coolapk.com/u/25572320" class="coolapk-link">
+                                    CoolApk
+                                </a>
+                                <a href="https://github.com/suiyuanlixin" class="github-link">
+                                    GitHub
+                                </a>
+                                <a href="https://qm.qq.com/q/KyGVvIijK0" class="qq-group-link">
+                                    QQ Group
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-text-container">
+                        <a href="https://github.com/EternityShen" class="head-link">
+                            <img src="../img/ShenEternity.jpg" alt="">
+                        </a>
+                        <div class="author-text">
+                            <div class="author-name">
+                                <span class="name-code">Name: </span>
+                                <span>ShenEternity</span>
+                            </div>
+                            <div class="link-list">
+                                <a href="http://www.coolapk.com/u/21323656" class="coolapk-link">
+                                    CoolApk
+                                </a>
+                                <a href="https://github.com/EternityShen" class="github-link">
+                                    GitHub
+                                </a>
+                                <a href="https://qm.qq.com/q/gwUamSMjYc" class="qq-group-link">
+                                    QQ Group
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-card">
+                    <div class="card-title-container">
+                        About
+                    </div>
+                    <div class="card-text-container">
+                        <div class="about-text">
+                            <p>Frame Tracker 是一个 Android 性能分析数据可视化工具，以 KernelSU / Magisk 模块的形式提供。</p>
+                            <p>它提供了一个优雅的 WebUI 界面，用于解析和展示性能记录文件，帮助用户分析游戏或应用的帧率、功耗和温度表现。</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-card">
+                    <div class="card-title-container">
+                        Instruction
+                    </div>
+                    <div class="card-text-container">
+                        <div class="instruction-text">
+                            <p>点击主页右上角开始新的录制，停止录制后即可在 WebUI 中查看，文件存放路径为：</p>
+                            <p><span class="path-txt copy">/data/adb/frame_tracker/csv/</span></p>
+                            <p>文件命名格式：<br>
+                                <span class="path-txt copy">应用包名 年-月-日 时-分-秒.csv</span><br>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-card">
+                    <div class="card-title-container">
+                        Note
+                    </div>
+                    <div class="card-text-container">
+                        <div class="note-text">
+                            <p>Frame Tracker 目前仅开发了 WebUI 部分，<b>暂不支持</b> 性能记录等功能，请使用 Scene 或其他工具导出记录文件。</p>
+                            <p>更新模块时，现有的记录数据 <b>不会</b> 被删除。</p>
+                            <p>卸载模块时，<span class="path-txt">/data/adb/frame_tracker</span> 目录会被
+                                <b>完全删除</b>，请提前备份该目录下的记录文件。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="importmap">{"imports":{"kernelsu":"https://cdn.jsdelivr.net/npm/kernelsu/+esm"}}</script>
+    <script type="module" src="../js/copy.js"></script>
+</body>
+
+</html>
